@@ -1,0 +1,39 @@
+.skills-page {
+    padding: 50px;
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .skill {
+    background-color: #fcfbfb;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .skill:hover{
+background-color:#f18c7ab4;
+  }
+  
+  .skill h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 14px;
+    color: hwb(0 16% 84%);
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .skills {
+      grid-template-columns: 1fr;
+    }
+  }
+  
