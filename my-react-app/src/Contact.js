@@ -64,7 +64,8 @@ const Contact = () => {
       <h2>CONTACT</h2>
       <div className="contact-content">
         <p>
-          Feel free to reach out to me with any questions, inquiries, or collaboration opportunities. I'm always excited to connect with fellow developers, clients, and like-minded individuals.
+          <br/><br/>Feel free to reach out to me with any questions, inquiries, or collaboration opportunities. 
+          <p>I'm always excited to connect with fellow developers, clients, and like-minded individuals.</p>
         </p>
         <p>
           You can contact me using the following methods:
@@ -72,12 +73,14 @@ const Contact = () => {
         <ul>
           <li>Email: DSPortfolioWebsite@gmail.com</li>
           <li>Phone:<br/> +91-9876543218</li>
+          <div className='linked'>
           <li>
             LinkedIn:{' '}
             <a href="https://www.linkedin.com/in/selva-lakshmi-d-638899243/">linkedin.com/in/selva-lakshmi-d-638899243/</a>
           </li>
-          
+          </div>
        </ul>
+       </div>
         <div className="contact">
     
       <form onSubmit={handleSubmit}>
@@ -135,7 +138,6 @@ const Contact = () => {
           <button type="send">Send</button>
         </div>
       </form>
-    </div>
     </div>
     </section>
  

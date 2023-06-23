@@ -1,5 +1,6 @@
 .footer {
     padding: 20px;
+    background-color: rgb(164, 160, 160);
 }
 .container {
   max-width: 1200px;
@@ -42,5 +43,5 @@
 }
 .footer__bottom p {
   font-size: 14px;
-  color: #777;
+  color: #0e0d0d;
 }

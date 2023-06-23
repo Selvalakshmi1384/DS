@@ -21,8 +21,7 @@ return (
             <Link to="/Contact">CONTACT</Link>
           </li>
           <li><Link to="/Skills">SKILLS</Link></li>
-          <li>
-          <Link to="/BlogPage">BLOG</Link></li>
+          
           
           <li className="instalink">
             <a
